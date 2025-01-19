@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحتي الشخصية - مشروع كيك</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #f06292;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #f06292;
+        }
+
+        .about {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #f06292;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #f06292;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مشروعي على كيك</h1>
+        <p>الابتكار والإبداع في كل مشروع</p>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>عن المشروع</h2>
+            <p>مشروعي على كيك هو منصة تهدف إلى تقديم أفضل الأفكار الإبداعية والمنتجات الفريدة التي تعكس شخصيتي وأسلوب حياتي. أشارك في هذا المشروع لأتمكن من الوصول إلى دعمكم وتحقيق أهدافي المشتركة عبر دعمكم. أنا شغوفة بإظهار أفضل ما لدي من خلال هذا المشروع.</p>
+        </section>
+
+        <section class="gallery">
+            <img src="https://via.placeholder.com/300x200/ffb6c1/000000?text=مشروع+1" alt="مشروع 1">
+            <img src="https://via.placeholder.com/300x200/ffb6c1/000000?text=مشروع+2" alt="مشروع 2">
+            <img src="https://via.placeholder.com/300x200/ffb6c1/000000?text=مشروع+3" alt="مشروع 3">
+        </section>
+
+        <section class="contact">
+            <h2>تواصل معي</h2>
+            <p>إذا كان لديك أي استفسار أو رغبة في دعم المشروع، لا تتردد في التواصل معي عبر الروابط التالية:</p>
+            <p><a href="https://www.instagram.com" target="_blank">حسابي على إنستغرام</a></p>
+            <p><a href="https://www.twitter.com" target="_blank">حسابي على تويتر</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
